@@ -14,3 +14,5 @@ public record DadosAgendamentoConsulta(
         @Future
         LocalDateTime data) {
 }
+// @JsonFormat(pattern = "dd/MM/yyyy HH:mm")
+// é usado como anotação em LocalDateTime para obter a data no formato passado para o pattern
